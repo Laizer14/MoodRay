@@ -2,6 +2,7 @@ package net.laizer.moodyray.Item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.laizer.moodyray.Item.custom.EightBallItem;
 import net.laizer.moodyray.MoodyRay;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -19,6 +20,12 @@ public class ModItems {
     public static final Item TANZANITE = registerItem(
             "tanzanite",
             new Item(new Item.Settings()),
+            ModItemGroup.TANZANITE
+    );
+
+    public static final Item EIGHT_BALL = registerItem(
+            "eight_ball",
+            new EightBallItem(new Item.Settings().maxCount(1)),
             ModItemGroup.TANZANITE
     );
 

@@ -38,6 +38,7 @@ public class ModBlocks {
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup group)  {
+        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(block));
         return Registry.register(Registries.ITEM, new Identifier(MoodyRay.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern" : [
+  "OOO",
+  "KIK",
+  "###"
+ ],
+"key": {
+  "#": {
+    "item": "moodyray:tanzanite"
+    },
+  "O": {
+    "item": "minecraft:obsidian"
+  },
+  "I": {
+    "item": "minecraft:nether_star"
+  },
+  "K": {
+    "item": "minecraft:ghast_tear"
+  }
+  },
+"result": {
+  "item" : "moodyray:eight_ball"
+  }
+}
