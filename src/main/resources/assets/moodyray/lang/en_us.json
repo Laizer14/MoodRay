@@ -2,11 +2,17 @@
   "item.moodyray.raw_tanzanite": "Raw Tanzanite",
   "item.moodyray.tanzanite": "Tanzanite",
   "item.moodyray.eight_ball": "Eight Ball",
+  "item.moodyray.eggplant": "Eggplant",
+  "item.moodyray.eggplant_seeds": "Eggplant Seeds",
+  "item.moodyray.cooked_eggplant": "Cooked Eggplant",
+  "item.moodyray.poop": "Poop",
 
   "block.moodyray.tanzanite_block": "Tanzanite Block",
   "block.moodyray.tanzanite_ore": "Tanzanite Ore",
   "block.moodyray.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
   "block.moodyray.jumpy_block": "Jumpy Block",
+  "block.moodyray.tanzanite_lamp": "Tanzanite Lamp",
+  "block.moodyray.Eggplant_crop": "Eggplant Crop",
 
   "itemGroup.moodyray.tanzanite": "Tanzanite Tab"
 }

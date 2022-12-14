@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern" : [
+  "PIO",
+  "###"
+ ],
+"key": {
+  "#": {
+    "item": "minecraft:white_wool"
+    },
+  "I": {
+    "item": "minecraft:potion"
+  },
+  "P": {
+    "item": "minecraft:brown_mushroom"
+  },
+  "O": {
+    "item": "minecraft:nether_wart"
+  }
+  },
+"result": {
+  "item" : "moodyray:jumpy_block"
+  }
+}

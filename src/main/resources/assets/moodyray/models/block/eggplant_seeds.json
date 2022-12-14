@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "all": "moodyray:item/eggplant_seeds"
+  }
+}

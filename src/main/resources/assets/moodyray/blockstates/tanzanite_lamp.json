@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model":  "moodyray:block/tanzanite_lamp_on" },
+    "lit=false": { "model":  "moodyray:block/tanzanite_lamp_off" }
+  }
+}
