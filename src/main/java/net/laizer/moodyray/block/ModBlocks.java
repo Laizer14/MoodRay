@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.laizer.moodyray.Item.ModItemGroup;
 import net.laizer.moodyray.MoodyRay;
+import net.laizer.moodyray.block.custom.JumpyBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.Material;
@@ -20,6 +21,9 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
     new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.TANZANITE);
+
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+    new JumpyBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.TANZANITE);
 
     public static final Block TANZANITE_ORE = registerBlock("tanzanite_ore",
     new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
