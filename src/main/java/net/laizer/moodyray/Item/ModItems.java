@@ -1,6 +1,5 @@
 package net.laizer.moodyray.Item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.laizer.moodyray.Item.custom.EightBallItem;
 import net.laizer.moodyray.MoodyRay;

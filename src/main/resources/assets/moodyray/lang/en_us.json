@@ -14,5 +14,7 @@
   "block.moodyray.tanzanite_lamp": "Tanzanite Lamp",
   "block.moodyray.Eggplant_crop": "Eggplant Crop",
 
-  "itemGroup.moodyray.tanzanite": "Tanzanite Tab"
+  "itemGroup.moodyray.tanzanite": "Tanzanite Tab",
+
+  "entity.minecraft.villager.jumpmaster": "Jump Master"
 }

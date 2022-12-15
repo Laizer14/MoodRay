@@ -4,6 +4,8 @@ import net.laizer.moodyray.Item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.laizer.moodyray.Item.ModItems;
 import net.laizer.moodyray.block.ModBlocks;
+import net.laizer.moodyray.painting.ModPaintings;
+import net.laizer.moodyray.villager.ModVillagers;
 import net.minecraft.item.BlockItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +19,10 @@ public class MoodyRay implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
+
+		ModPaintings.registerPaintings();
 	}
 }
